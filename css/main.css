@@ -1,0 +1,28 @@
+.glider-next {
+  right: -50px;
+  top: 50%;
+}
+
+.glider-prev {
+  left: -40px;
+  top: 50%;
+}
+
+.glider-contain {
+  width: 90% !important;
+  margin-top: 1%;
+  margin-bottom: 0%;
+}
+
+figure, iframe{
+  margin-top: auto;
+  margin-bottom: auto;
+  position: relative center;
+}
+
+.dots {
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
+
+

@@ -1,0 +1,328 @@
+
+
+.fotoCamera {
+    
+    /* 
+     * Make the initial position to be the center of the circle you want this
+     * object follow.
+     */
+    position: absolute;
+
+    padding: 10px 10px;
+    left: auto;
+    top: auto;
+    
+
+    /*
+     * Sets up the animation duration, timing-function (or easing)
+     * and iteration-count. Ensure you use the appropriate vendor-specific 
+     * prefixes as well as the official syntax for now. Remember, tools like 
+     * CSS Please are your friends!
+     */
+    -webkit-animation: myOrbit 20s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit 20s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit 20s linear infinite; /* Opera 12+ */
+            animation: myOrbit 20s linear infinite; /* Chrome, Firefox 16+, 
+                                                      IE 10+, Safari 5 */
+    
+}
+
+/*
+ * Set up the keyframes to actually describe the begining and end states of 
+ * the animation.  The browser will interpolate all the frames between these 
+ * points.  Again, remember your vendor-specific prefixes for now!
+ */
+
+
+ @-webkit-keyframes myOrbit {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+
+@-moz-keyframes myOrbit {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+
+@-o-keyframes myOrbit {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+
+@keyframes myOrbit {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+.videoCamera {
+    
+    /* 
+     * Make the initial position to be the center of the circle you want this
+     * object follow.
+     */
+    position: absolute;
+
+    padding: 10px 10px;
+    left: auto;
+    top: auto;
+    
+
+    /*
+     * Sets up the animation duration, timing-function (or easing)
+     * and iteration-count. Ensure you use the appropriate vendor-specific 
+     * prefixes as well as the official syntax for now. Remember, tools like 
+     * CSS Please are your friends!
+     */
+    -webkit-animation: myOrbit1 20s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit1 20s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit1 20s linear infinite; /* Opera 12+ */
+            animation: myOrbit1 20s linear infinite; /* Chrome, Firefox 16+, 
+                                                      IE 10+, Safari 5 */
+    
+}
+
+/*
+ * Set up the keyframes to actually describe the begining and end states of 
+ * the animation.  The browser will interpolate all the frames between these 
+ * points.  Again, remember your vendor-specific prefixes for now!
+ */
+
+
+ @-webkit-keyframes myOrbit1 {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+@-moz-keyframes myOrbit1 {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit1 {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+@keyframes myOrbit1 {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+
+.ig{
+    
+    /* 
+     * Make the initial position to be the center of the circle you want this
+     * object follow.
+     */
+    position: absolute;
+
+    padding: 10px 10px;
+    left: auto;
+    top: auto;
+    
+
+    /*
+     * Sets up the animation duration, timing-function (or easing)
+     * and iteration-count. Ensure you use the appropriate vendor-specific 
+     * prefixes as well as the official syntax for now. Remember, tools like 
+     * CSS Please are your friends!
+     */
+    -webkit-animation: myOrbit2 20s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit2 20s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit2 20s linear infinite; /* Opera 12+ */
+            animation: myOrbit2 20s linear infinite; /* Chrome, Firefox 16+, 
+                                                      IE 10+, Safari 5 */
+    
+}
+
+/*
+ * Set up the keyframes to actually describe the begining and end states of 
+ * the animation.  The browser will interpolate all the frames between these 
+ * points.  Again, remember your vendor-specific prefixes for now!
+ */
+
+
+ @-webkit-keyframes myOrbit2 {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+@-moz-keyframes myOrbit2 {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit2 {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+@keyframes myOrbit2 {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+.PremiereProLogo {
+    
+    /* 
+     * Make the initial position to be the center of the circle you want this
+     * object follow.
+     */
+    position: absolute;
+    padding: 10px 10px;
+    left: auto;
+    top: auto;
+  
+    
+    
+
+    /*
+     * Sets up the animation duration, timing-function (or easing)
+     * and iteration-count. Ensure you use the appropriate vendor-specific 
+     * prefixes as well as the official syntax for now. Remember, tools like 
+     * CSS Please are your friends!
+     */
+    -webkit-animation: myOrbit3 20s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit3 20s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit3 20s linear infinite; /* Opera 12+ */
+            animation: myOrbit3 20s linear infinite; /* Chrome, Firefox 16+, 
+                                                      IE 10+, Safari 5 */
+            
+    
+}
+
+/*
+ * Set up the keyframes to actually describe the begining and end states of 
+ * the animation.  The browser will interpolate all the frames between these 
+ * points.  Again, remember your vendor-specific prefixes for now!
+ */
+
+
+
+
+ @-webkit-keyframes myOrbit3 {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+@-moz-keyframes myOrbit3 {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit3 {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+@keyframes myOrbit3 {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+
+.rent {
+    
+    /* 
+     * Make the initial position to be the center of the circle you want this
+     * object follow.
+     */
+    position: absolute;
+
+    padding: 10px 10px;
+    left: auto;
+    top: auto;
+  
+    
+    
+
+    /*
+     * Sets up the animation duration, timing-function (or easing)
+     * and iteration-count. Ensure you use the appropriate vendor-specific 
+     * prefixes as well as the official syntax for now. Remember, tools like 
+     * CSS Please are your friends!
+     */
+    -webkit-animation: myOrbit3 20s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit3 20s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit3 20s linear infinite; /* Opera 12+ */
+            animation: myOrbit3 20s linear infinite; /* Chrome, Firefox 16+, 
+                                                      IE 10+, Safari 5 */
+            
+    
+}
+
+/*
+ * Set up the keyframes to actually describe the begining and end states of 
+ * the animation.  The browser will interpolate all the frames between these 
+ * points.  Again, remember your vendor-specific prefixes for now!
+ */
+
+ @-webkit-keyframes myOrbit3 {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+@-moz-keyframes myOrbit3 {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit3 {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+@keyframes myOrbit3 {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+
+.fotoCamera{
+
+    animation-delay: -5s;
+}
+.videoCamera{
+    animation-delay: -9s;
+}
+
+
+
+.ig{
+ animation-delay: -13s;
+}
+
+.PremiereProLogo{
+    animation-delay: -17s;
+}
+.rent{
+    animation-delay: -21s;
+}
+
+
+
+.clockCircle{ 
+    position: relative;
+    width: 600px;
+    height: 600px;
+    padding: 0;
+    margin: 1.75em auto 0;
+    align-items: center;
+    padding-top: 150px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 450px;
+
+}
+
+.clockCircle img { 
+    align-items: center;
+}
+.clockCircle img:hover { 
+    cursor: pointer;
+}
+
+.clockCircle h3 {
+    text-align: center;
+}
